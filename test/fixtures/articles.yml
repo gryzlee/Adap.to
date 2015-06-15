@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  header: MyText
+
+two:
+  title: MyString
+  header: MyText
+
+##If you are working with associations, you can simply define a reference node between two different fixtures. Here's an example with a belongs_to/has_many association:
+
+# In fixtures/categories.yml
+#about:
+#  name: About
+# 
+# In fixtures/articles.yml
+#one:
+#  title: Welcome to Rails!
+#  body: Hello world!
+#  category: about

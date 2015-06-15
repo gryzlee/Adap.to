@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h2><%= @article.title %></h2>
+<i><%= @article.header %></i>
+
+<h5>Comments</h5>
+<% @comments.each do |comment| %>
+	<p><%= User.find_by_id(comment.creator_id).email %>
+	<p><%= comment.body %></p>
+<% end %>
